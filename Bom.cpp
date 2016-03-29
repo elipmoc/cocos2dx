@@ -1,8 +1,8 @@
-#include "Gamescene.h"
+ï»¿#include "Gamescene.h"
 
 
 
-//ì¬-------------------
+//ä½œæˆ-------------------
 Bom* Bom::create(const std::string& filename,Gamescene* _m,Bomcontrol* _bomcon) {
 	Bom* ret = new (std::nothrow) Bom();
 	if (ret&&ret->initWithFile(filename) &&ret->init(_m,_bomcon))
@@ -13,7 +13,7 @@ Bom* Bom::create(const std::string& filename,Gamescene* _m,Bomcontrol* _bomcon) 
 	CC_SAFE_DELETE(ret);
 	return nullptr;
 }
-//‰Šú‰»----------------------
+//åˆæœŸåŒ–----------------------
 bool Bom::init(Gamescene* _m,Bomcontrol* _bomcon) {
 	scene = _m;
 	bomcon = _bomcon;
@@ -65,7 +65,6 @@ void Bom::explosion(float dt){
 	this->runAction(Animate::create(animation));
 	scheduleOnce(schedule_selector(Bom::deletebom), 0.4f);
 }
-
 void Bom::afterexplosion() {
 	unschedule(schedule_selector(Bom::explosion));
 	scheduleOnce(schedule_selector(Bom::explosion), 0.05f);
