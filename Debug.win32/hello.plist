@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+
+<plist version="1.0">
+    <dict>
+        <key>mob</key>
+        <array>
+            <dict>
+                <key>mobkind</key>
+                <integer>0</integer>
+                <key>mobx</key>
+                <integer>20</integer>
+                <key>moby</key>
+                <integer>222</integer>
+            </dict>
+            <dict>
+                <key>mobkind</key>
+                <integer>-9</integer>
+                <key>mobx</key>
+                <real>3.1400000000000001</real>
+                <key>moby</key>
+                <integer>4545</integer>
+            </dict>
+        </array>
+        <key>greeting</key>
+        <string>Hello World</string>
+    </dict>
+</plist>

@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\testlayer">
+      <UniqueIdentifier>{dd190d07-e882-4ffd-bde0-f89622379fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\phy_testlayer">
+      <UniqueIdentifier>{b22f46ea-fb63-4ae6-9e84-d4f1666ce6de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test3.cpp">
+      <Filter>src\testlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="test2.cpp">
+      <Filter>src\testlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="test1.cpp">
+      <Filter>src\testlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy_test1.cpp">
+      <Filter>src\phy_testlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapcontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamescene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Playercontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapsprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy_testscene1.cpp">
+      <Filter>src\phy_testlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\testlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observekey.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomcontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Bom.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Titlescene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Selectscene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Clearscene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stagedata.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Stageexplanationscene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Firecontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Firesprite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameoverscene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mobdata.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mobcontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Playercontrol2p.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Itemcontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Colisioncontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Colision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Eventcontrol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Eventobject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="test3.h">
+      <Filter>src\testlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="test2.h">
+      <Filter>src\testlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="test1.h">
+      <Filter>src\testlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy_test1.h">
+      <Filter>src\phy_testlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapcontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamescene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Playercontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapsprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy_testscene1.h">
+      <Filter>src\phy_testlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\testlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observekey.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomcontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Bom.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Titlescene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Selectscene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Clearscene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Stagedata.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Stageexplanationscene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Firecontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Firesprite.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameoverscene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobdata.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobcontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Playercontrol2p.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Itemcontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Colisioncontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Colision.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob3.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Eventcontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Eventobject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

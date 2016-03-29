@@ -1,0 +1,13 @@
+aaaaaaaaaaaaaaa
+a  bbbb bbbb  a
+a aba a ababa a
+abbb bbbbbbbbba
+a ababababababa
+a bbbb   bbb ba
+aba aba abababa
+abbbbb   b bbba
+abababababababa
+a b bbbbbbbbbba
+a aba aba a a a
+a  bbbbbbbbb  a
+aaaaaaaaaaaaaaa

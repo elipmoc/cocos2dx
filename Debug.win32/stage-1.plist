@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+
+<plist version="1.0">
+  <dict>
+    <key>playerpositionx</key>
+    <integer>10</integer>
+    <key>playerpositiony</key>
+    <integer>10</integer>
+    <key>portalpositionx</key>
+    <integer>2</integer>
+    <key>portalpositiony</key>
+    <integer>1</integer>
+    <key>Stagekind</key>
+    <integer>-1</integer>
+    <key>mob</key>
+     <array>
+            <dict>
+                <key>mobkind</key>
+                <integer>1</integer>
+                <key>mobx</key>
+                <integer>7</integer>
+                <key>moby</key>
+                <integer>5</integer>
+            </dict>
+            <dict>
+                <key>mobkind</key>
+                <integer>1</integer>
+                <key>mobx</key>
+                <integer>1</integer>
+                <key>moby</key>
+                <integer>4</integer>
+            </dict>
+            <dict>
+                <key>mobkind</key>
+                <integer>1</integer>
+                <key>mobx</key>
+                <integer>8</integer>
+                <key>moby</key>
+                <integer>5</integer>
+            </dict>
+        </array>
+  </dict>
+</plist>
