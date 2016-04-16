@@ -138,6 +138,9 @@
     <ClCompile Include="Eventobject.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -258,6 +261,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="Eventobject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

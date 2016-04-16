@@ -1,5 +1,4 @@
 #pragma once
-#include "cocos2d.h"
 #include "Observekey.h"
 #include "AudioEngine.h"
 #include "Stagedata.h"

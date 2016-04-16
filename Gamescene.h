@@ -1,6 +1,5 @@
 #pragma once
 #pragma execution_character_set("utf-8")
-#include "cocos2d.h"
 class Colisionkind {
 public:
 	static const int player = 1, mob = 2, portal = 4, item = 8;

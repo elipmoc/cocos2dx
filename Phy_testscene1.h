@@ -1,5 +1,5 @@
 #pragma once
-#include "cocos2d.h"
+#include "stdafx.h"
 #include "Phy_test1.h"
 
 

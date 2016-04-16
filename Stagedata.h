@@ -1,5 +1,4 @@
 #pragma once
-#include "cocos2d.h"
 #include "Mobdata.h"
 using namespace cocos2d;
 //各ステージの情報を取得、管理するクラス

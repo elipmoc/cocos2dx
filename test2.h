@@ -1,6 +1,7 @@
 #pragma once
 
-#include "cocos2d.h"
+#include "stdafx.h"
+
 
 class Test2 : public cocos2d::Layer
 {

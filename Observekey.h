@@ -1,5 +1,4 @@
 #pragma once
-#include "cocos2d.h"
 #define KEYMAX 11
 class Observekey : public cocos2d::Layer
 {

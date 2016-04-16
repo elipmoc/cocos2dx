@@ -139,12 +139,12 @@ void Player::update(float dt) {
 		}
 		else { stopActionByTag(2); x = 0; y = 0; return; }
 		//ˆÚ“®æ‚ÉáŠQ•¨‚ª‚È‚¢‚Æ‚«
-		//if (scene->mapcontrol->getblock(Vec2(getPositionX() + x,getPositionY() + y))->obstaclecheck() == false) {
+		if (scene->mapcontrol->getblock(Vec2(getPositionX() + x,getPositionY() + y))->obstaclecheck() == false) {
 			//1ƒuƒƒbƒN•ªˆÚ“®
 			auto move = MoveBy::create(speed, Vec2(x, y));
 			move->setTag(1);
 			runAction(move);
-		//}
+		}
 
 	}
 }
